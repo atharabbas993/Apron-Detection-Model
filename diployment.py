@@ -91,12 +91,12 @@ def main():
     st.sidebar.header("Model Configuration")
     person_model_path = st.sidebar.text_input(
         "Person Model Path", 
-        value=r"D:\worksapce\Apron_Pipeline\Person_detector.pt",
+        value=r"Person_detector.pt",
         help="Path to YOLOv8 person detection model"
     )
     apron_model_path = st.sidebar.text_input(
         "Apron Model Path", 
-        value=r"D:\worksapce\Apron_Pipeline\Apron_detector_Model.pt",
+        value=r"Apron_detector_Model.pt",
         help="Path to YOLOv8 apron classification model"
     )
     
