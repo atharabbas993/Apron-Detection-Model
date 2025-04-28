@@ -14,3 +14,4 @@ opencv-python-headless
 # Additional utilities
 pyyaml==6.0.1
 tqdm==4.66.2
+ultralytics
