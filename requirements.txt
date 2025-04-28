@@ -1,6 +1,19 @@
-numpy
-opencv_contrib_python
-opencv_python
-Pillow
-streamlit
-ultralytics
+# Core requirements
+streamlit==1.32.0
+ultralytics==8.1.0
+numpy==1.26.4
+Pillow==10.2.0
+
+# OpenCV with headless support (better for server environments)
+opencv-python-headless==4.9.0.80
+
+# PyTorch (CPU version - for most basic deployments)
+torch==2.2.1+cpu
+torchvision==0.17.1+cpu
+--index-url https://download.pytorch.org/whl/cpu
+
+# Additional dependencies that might be needed
+pyyaml==6.0.1
+tqdm==4.66.2
+matplotlib==3.8.3
+seaborn==0.13.1
