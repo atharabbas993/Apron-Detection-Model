@@ -1,18 +1,17 @@
-# Core requirements with compatible versions
+# Core requirements
 streamlit==1.32.0
-ultralytics==8.1.0
-numpy==1.26.4  # Fixed version compatible with all other packages
+numpy==1.26.4
 Pillow==10.2.0
 
-# OpenCV with headless support and compatible numpy version
-opencv-python-headless==4.9.0.80
-
-# PyTorch CPU version with compatible dependencies
+# YOLOv11 requirements
 torch==2.2.1
 torchvision==0.17.1
+mmengine>=0.10.3
+mmcv>=2.1.0
 
-# Additional dependencies
+# Computer Vision
+opencv-python-headless==4.9.0.80
+
+# Additional utilities
 pyyaml==6.0.1
 tqdm==4.66.2
-matplotlib==3.8.3
-seaborn==0.13.1
